@@ -6,8 +6,7 @@ what-next: >
   これで、[ビルド](#build)、[サーブ](#serve)、Web サイトファイルの更新を行う準備が整いました。
   変更の提出方法の詳細については、[コンテンツの提出](../pull-requests)を参照してください。
 weight: 60
-default_lang_commit: 4f9b6de11b3a5062c94790b1ca2d7b0fb05114a5
-drifted_from_default: true
+default_lang_commit: bf0881aa9c57519b487bf6b5c469ca7f188dceed
 cSpell:ignore: TOCSS
 ---
 
@@ -75,6 +74,26 @@ GitHub [Codespaces][] で作業するには、下記にしたがってくださ�
     ```sh
     npm install
     ```
+
+    または、CI と DevContainer が使用する[ロックファイルに厳密でスクリプトを抑制するセットアップ][ci-install]の場合は以下を実行してください。
+
+    ```sh
+    npm run install:safe
+    ```
+
+    どちらのインストールでも、コミット済みの `package-lock.json` に固定された依存関係のバージョンが使用されます。
+    ロックファイルに関する注意事項は以下の通りです。
+    - **依存関係を変更した場合**: ロックファイルを再生成し、`package.json` と一緒にコミットしてください。
+
+      ```sh
+      npm install --package-lock-only --ignore-scripts
+      ```
+
+    - **ロックファイルでマージコンフリクトが発生した場合**: `main` ブランチのバージョンを採用し、上記のコマンドを再実行してください。
+    - **依存関係を変更していないのにロックファイルが変わった場合**（`postinstall` のチェックがこれを検出すると警告します）: これはドリフトを意味します。
+      ロックファイルを元に戻し、書き換えをコミットするのではなく原因を調査してください。
+
+    サイトメンテナーは[その他のロックファイルメンテナンス][ci-install]を管理しています。
 
 お好みの IDE を起動してください。{{% param what-next %}}
 
@@ -209,6 +228,7 @@ npm run check:code-excerpts
 [code-excerpter]: https://github.com/chalin/code-excerpter
 
 <!-- prettier-ignore-start -->
+[ci-install]: /site/build/ci-workflows/#dependency-installation
 [clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [codespaces]: https://docs.github.com/en/codespaces
 [cs-devc]: https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers#about-dev-containers
