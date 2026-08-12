@@ -4,8 +4,7 @@ description: >-
   OpenTelemetry ウェブサイトのビルド、配信、検証、メンテナンスのための NPM スクリプト。
 weight: 20
 todo: Keep table entries sorted
-default_lang_commit: 0aff0aab149003b5592edfe186c193047e40c766
-drifted_from_default: true
+default_lang_commit: cc127cac40d5d6aaf48e015f1cf4dbf76bff587b
 ---
 
 スクリプトの定義はリポジトリルートの [`package.json`](https://github.com/open-telemetry/opentelemetry.io/blob/main/package.json) にあります。
@@ -127,20 +126,25 @@ drifted_from_default: true
 
 ## ユーティリティ {#utilities}
 
-| スクリプト                     | 説明                                                                                      |
-| ------------------------------ | ----------------------------------------------------------------------------------------- |
-| `seq`                          | 指定されたスクリプト名を順番に実行します。最初の失敗で終了。                              |
-| `all`                          | 指定されたすべてのスクリプトを実行し、いずれかが失敗した場合は失敗で終了。                |
-| `locale-auto-merge`            | [ロケール自動マージヘルパー CLI][locale-auto-merge]（`--help`）。                         |
-| `prepare`                      | インストールステップ: `get:submodule` を実行し、Docsy テーマの `postinstall` を実行。     |
-| `prebuild:*`                   | `build*` の前に実行されるフック。各フックは `_prebuild` を実行。                          |
-| `update:hugo`                  | 最新の hugo-extended をインストールします。                                               |
-| `update:packages`              | npm-check-updates を実行して依存関係を更新します。                                        |
-| `generate:config:links`        | `lychee.base.toml` とページフロントマターから git 無視の `lychee.toml` を生成します。     |
-| `log:build`、`log:check:links` | 対応するスクリプトを実行し、出力を `tmp/` に tee し、スクリプトの終了コードを伝搬します。 |
+| スクリプト                     | 説明                                                                                                |
+| ------------------------------ | --------------------------------------------------------------------------------------------------- |
+| `all`                          | 指定されたすべてのスクリプトを実行し、いずれかが失敗した場合は失敗で終了。                          |
+| `ci:min`                       | CI 用のロック付き不活性インストール: ライフサイクルスクリプトなし、オプション依存なし。             |
+| `ci:prepare`                   | `ci:min` 後のセットアップ: ピン留めされた Hugo バイナリを取得し、`prepare` を実行。                 |
+| `generate:config:links`        | `lychee.base.toml` とページフロントマターから git 無視の `lychee.toml` を生成します。               |
+| `install:safe`                 | ロック付きローカルセットアップ: オプション依存を保持した不活性インストール後、`ci:prepare` を実行。 |
+| `locale-auto-merge`            | [ロケール自動マージヘルパー CLI][locale-auto-merge]（`--help`）。                                   |
+| `log:build`、`log:check:links` | 対応するスクリプトを実行し、出力を `tmp/` に tee し、スクリプトの終了コードを伝搬します。           |
+| `prebuild:*`                   | `build*` の前に実行されるフック。各フックは `_prebuild` を実行。                                    |
+| `prepare`                      | インストールステップ: `get:submodule` を実行し、Docsy テーマの `postinstall` を実行。               |
+| `seq`                          | 指定されたスクリプト名を順番に実行します。最初の失敗で終了。                                        |
+| `update:hugo`                  | 最新の hugo-extended をインストールします。                                                         |
+| `update:packages`              | npm-check-updates を実行して依存関係を更新します。                                                  |
 
 ## 注記 {#notes}
 
+- **インストール契約。**
+  どの CI ジョブが `ci:min` と `ci:prepare` を実行するかについては、[依存関係のインストール](../ci-workflows/#dependency-installation)を参照してください。
 - **リンクキャッシュ。**
   リンクチェックスクリプトはコミット済みの `.lycheecache` を読み書きします。
   詳細は[リンクチェック](/site/build/link-checking/)を参照してください。
