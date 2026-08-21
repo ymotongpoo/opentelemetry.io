@@ -3,21 +3,15 @@ title: CI ワークフロー
 description: >-
   PR のチェック、ラベル管理、その他の CI/CD プロセスを自動化する GitHub Actions ワークフロー。
 weight: 10
-default_lang_commit: bf0881aa9c57519b487bf6b5c469ca7f188dceed
-drifted_from_default: true
+default_lang_commit: bdfe463187e63311ab3e137f1e314acfb877fd8b
 ---
 
 ワークフローと（ほとんどの）ヘルパースクリプトについては、[.github][] 配下の `workflow` フォルダと `scripts` フォルダを参照してください。
 
 ## 依存関係のインストール {#dependency-installation}
 
-CI ジョブはコミット済みの `package-lock.json` から npm の依存関係をインストールします。
-
-- `npm run ci:min` はロックされた依存関係グラフをインストールします。ライフサイクルスクリプトは実行されず、`package.json` とロックファイルが同期していない場合はインストールが失敗します。
-- サイトをビルドするジョブは、インストールの後に `npm run ci:prepare` を実行します。これは `hugo-extended`（再有効化された唯一の依存関係フック）をリビルドし、リポジトリ独自の `prepare` セットアップを実行します。
-- devcontainer はかわりに `npm run install:safe` を使用します。同じ動作を保証しますが、`netlify-cli` などのローカルツールを含むオプショナルな依存関係を保持します。
-
-スクリプトの詳細については、[npm スクリプト](../npm-scripts/)を参照してください。
+CI ジョブはサイト全体の[インストール契約](/site/build/dependencies/#install-contracts)に従って npm の依存関係をインストールします。
+ロックファイルに厳密に従い、スクリプトは実行せず、ビルドジョブではレビュー済みの Hugo リビルドのみを再有効化します。
 
 ## PR 承認ラベル {#pr-approval-labels}
 
