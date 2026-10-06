@@ -1,0 +1,20 @@
+.htmltest.yml
+  h_bf0ada3931f770 1-430
+content-modules/opentelemetry-configuration
+  h_bf0ada3931f770 1
+content-modules/opentelemetry-specification
+  h_bf0ada3931f770 1
+content/ja/blog/2026/otel-prometheus-interoperability/index.md
+  h_bf0ada3931f770 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "57f404d1b4704232ce40b1feda3929f8a84f438a",
+  "prompts": {},
+  "humans": {
+    "h_bf0ada3931f770": {
+      "author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
