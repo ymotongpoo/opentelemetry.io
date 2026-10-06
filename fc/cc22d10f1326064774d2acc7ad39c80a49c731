@@ -1,0 +1,21 @@
+content-modules/opentelemetry-configuration
+  s_9ec56d08b05f6f::t_8c4623dc90ef48 1
+content-modules/opentelemetry-specification
+  s_9ec56d08b05f6f::t_145538b7f8586a 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fccc22d10f1326064774d2acc7ad39c80a49c731",
+  "prompts": {},
+  "sessions": {
+    "s_9ec56d08b05f6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "269c8649-4fbd-4039-b3a0-00c3c86c5ca1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
