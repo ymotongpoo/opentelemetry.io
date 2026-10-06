@@ -1,0 +1,19 @@
+content/ja/blog/2026/otel-prometheus-interoperability/index.md
+  s_9ec56d08b05f6f::t_f9de744127eb07 61,63,84,86,115,117,145,147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d56ea4188f452e715bab151f82e66d7812253129",
+  "prompts": {},
+  "sessions": {
+    "s_9ec56d08b05f6f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "269c8649-4fbd-4039-b3a0-00c3c86c5ca1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
