@@ -1,0 +1,19 @@
+content/ja/blog/2026/cardinality-limits-in-opentelemetry.md
+  s_12da1963538e00::t_6ec700a9314a6f 34-39,69,231,233
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7add0efc13d9a44baeba2876a2915d096ac49a88",
+  "prompts": {},
+  "sessions": {
+    "s_12da1963538e00": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "96bbb592-8195-40d3-a380-ab3cdf0503d9",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
