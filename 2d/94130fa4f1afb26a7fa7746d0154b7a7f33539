@@ -1,0 +1,19 @@
+content/en/blog/2026/humans-of-otel-japan.md
+  s_3713b30712ebfd::t_c56d8550c1ac29 4,25-26,33,141-143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2d94130fa4f1afb26a7fa7746d0154b7a7f33539",
+  "prompts": {},
+  "sessions": {
+    "s_3713b30712ebfd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "98997f11-8876-4247-a5f1-5a4fd02f4acd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
