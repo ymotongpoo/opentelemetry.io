@@ -1,0 +1,19 @@
+content/ja/site/build/dependencies.md
+  s_22cfe9584ce0e8::t_900a3f93cfd698 6,96-113,287,292,297
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dda70cd557f1433e08e90c960bd220b73d03fafb",
+  "prompts": {},
+  "sessions": {
+    "s_22cfe9584ce0e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a442e870-d1d6-4be0-9252-d19d734c9885",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
