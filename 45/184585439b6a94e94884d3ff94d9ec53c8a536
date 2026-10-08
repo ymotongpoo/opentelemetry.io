@@ -1,0 +1,19 @@
+content/en/docs/zero-code/obi/setup/docker.md
+  s_ff65d3f1cc7ef1::t_e4e07651ffe5f3 166-193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "45184585439b6a94e94884d3ff94d9ec53c8a536",
+  "prompts": {},
+  "sessions": {
+    "s_ff65d3f1cc7ef1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "afb5e511-29a5-465f-8c60-b7af60da667d",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
