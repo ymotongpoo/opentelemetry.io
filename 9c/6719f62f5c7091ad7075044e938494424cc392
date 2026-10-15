@@ -1,0 +1,19 @@
+content/ja/site/design/supply-chain-audit.md
+  s_125fd6dbe23d49::t_8d2830343ad719 6,12,14,23,40,47,61-73,76-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c6719f62f5c7091ad7075044e938494424cc392",
+  "prompts": {},
+  "sessions": {
+    "s_125fd6dbe23d49": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13e57-e925-7192-8925-8f61d2a88ea1",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
