@@ -1,0 +1,23 @@
+content/ja/site/features.md
+  s_78de6f455a1263::t_3c2bce95c13fb9 6-7,21-43
+content/ja/site/design/telemetry.md
+  s_78de6f455a1263::t_999385e80270c3 2,10,14-15,18-19,21,23-27,31-32,34-36,38-41,45-50
+  s_78de6f455a1263::t_882b37ae54f6ea 17,20
+  s_78de6f455a1263::t_f9d07780f6d006 4-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b4b0ec35fb60495053cde2d3a1213166235a32fa",
+  "prompts": {},
+  "sessions": {
+    "s_78de6f455a1263": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "adb1f515-d23c-4b93-bae3-6fa79948b903",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
