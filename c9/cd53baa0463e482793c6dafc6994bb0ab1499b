@@ -1,0 +1,20 @@
+content/ja/site/build/npm-scripts.md
+  s_ad15b5c629b586::t_304e8ebddb80fe 72-73
+  s_ad15b5c629b586::t_69918efd3241e6 7,60-71,74-78,172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c9cd53baa0463e482793c6dafc6994bb0ab1499b",
+  "prompts": {},
+  "sessions": {
+    "s_ad15b5c629b586": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15b85-700f-7e10-8588-5f10ee867d4b",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
