@@ -1,0 +1,21 @@
+content/ja/site/design/telemetry.md
+  s_ad15b5c629b586::t_9d7eb0cbfdf90a 1-54
+content/ja/site/features.md
+  s_ad15b5c629b586::t_d1e7ea249bf07a 6-7,21-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b59d30476cb72a42dc373c2cd6379f53f04bee9a",
+  "prompts": {},
+  "sessions": {
+    "s_ad15b5c629b586": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15b85-700f-7e10-8588-5f10ee867d4b",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
