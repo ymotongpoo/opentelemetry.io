@@ -1,0 +1,14 @@
+content/ja/blog/2024/collector-roadmap/index.md
+  h_bf0ada3931f770 56,59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9d3014e7828da67722a3d7dce63eb3074507dacf",
+  "prompts": {},
+  "humans": {
+    "h_bf0ada3931f770": {
+      "author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
