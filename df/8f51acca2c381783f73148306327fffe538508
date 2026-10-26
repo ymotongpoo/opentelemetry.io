@@ -1,0 +1,19 @@
+content/ja/blog/2025/contribute-to-otel.md
+  s_6ec3eaca2e4fa5::t_19d13fbf044c42 36-37,44,50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "df8f51acca2c381783f73148306327fffe538508",
+  "prompts": {},
+  "sessions": {
+    "s_6ec3eaca2e4fa5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1769f-879b-7d82-8eab-e2a4453f087d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
