@@ -1,0 +1,19 @@
+content/ja/blog/2023/why-histograms/index.md
+  s_ea6d14ddb41c76::t_0a9977932ce06a 24-25,53,55,63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8f92aaad0919461e46eab6251d07da77b368865e",
+  "prompts": {},
+  "sessions": {
+    "s_ea6d14ddb41c76": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17717-e3b0-7463-bcb7-959c4ff06924",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
