@@ -1,0 +1,19 @@
+content/ja/blog/2025/observing-lambdas/index.md
+  s_c4a1ba260e23fb::t_8645a6612c1515 94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ecd1534cb925cc10ac81348d4ca76eea2d28bf83",
+  "prompts": {},
+  "sessions": {
+    "s_c4a1ba260e23fb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a176a6-7523-7513-a6a0-df6d8a6257fd",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
