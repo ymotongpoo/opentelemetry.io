@@ -1,0 +1,19 @@
+tests/public/otel-benchmarks.test.mjs
+  s_2ad2d47df42e4f::t_d0601dd1f8b554 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1f154062786c24b706f1c7fb5e785a6eb8460757",
+  "prompts": {},
+  "sessions": {
+    "s_2ad2d47df42e4f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7803d5c-6f26-489b-8aa3-75cb4d981338",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
