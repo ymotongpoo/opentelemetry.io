@@ -1,0 +1,19 @@
+tests/public/otel-benchmarks.test.mjs
+  s_0cc4e42b60e937::t_7e1b0853384cb0 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e988b84e154e445d92a4f8c5522d95e0abf9f800",
+  "prompts": {},
+  "sessions": {
+    "s_0cc4e42b60e937": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a194cc-0103-7380-90b9-c4fbb067127c",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
