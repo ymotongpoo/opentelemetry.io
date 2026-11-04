@@ -1,0 +1,19 @@
+content/ja/blog/2026/devex-keycloak/index.md
+  s_1238988ccb58af::t_fe31d4fda2e7ff 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4ba2e3733aaf5e4c34554b259e3fb4dc647c9857",
+  "prompts": {},
+  "sessions": {
+    "s_1238988ccb58af": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "34317276-a9a2-41af-a0e7-5a36e7051851",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
