@@ -1,0 +1,14 @@
+content/ja/blog/2026/otel-js-sdk-3-0.md
+  h_bf0ada3931f770 84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "92fa1f653321c4e131ebd5710b4d8a1a6241dd80",
+  "prompts": {},
+  "humans": {
+    "h_bf0ada3931f770": {
+      "author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
