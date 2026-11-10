@@ -1,0 +1,19 @@
+content/ja/blog/2023/kubecon-eu.md
+  s_855151eb10f34d::t_b4e410034f36b5 47-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ad9d708206a8cc1e62594692d1ae9f562ae64564",
+  "prompts": {},
+  "sessions": {
+    "s_855151eb10f34d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c3d3-ec09-7b50-99ce-a0b0b9ce5e34",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
