@@ -1,0 +1,20 @@
+content/ja/blog/2023/synthetic-testing/index.md
+  s_2ea668ed85e545::t_5d154b6320ea89 2-3,10,13,18,22,57,66,70,74
+  s_2ea668ed85e545::t_72550706708401 24,75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6f8581d67d996f2ab8e2d335b75f77a1a55ccbfe",
+  "prompts": {},
+  "sessions": {
+    "s_2ea668ed85e545": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c3d8-9d2b-7913-8196-f17b4c5a4767",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
