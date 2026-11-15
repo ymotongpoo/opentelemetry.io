@@ -1,0 +1,20 @@
+content/ja/docs/collector/deploy/choose.md
+  s_ee08a1572ffa57::t_40fd3052d4af32 9
+  s_ee08a1572ffa57::t_8fa8aacc23241d 1-8,10-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f62ac31860fb650deac1d6b190976b34708e500f",
+  "prompts": {},
+  "sessions": {
+    "s_ee08a1572ffa57": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f202a004-a36e-4020-9651-c93ca2d4d0e8",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoshi Yamaguchi <ymotongpoo@gmail.com>"
+    }
+  }
+}
